@@ -9,7 +9,27 @@ app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
 
 app.get('/', function(req, res) {
-    res.render("landing")
+    res.render("landing");
+});
+
+app.get('/bio', function(req, res) {
+    res.render("bio");
+});
+
+app.get('/projects', function(req, res) {
+    res.render("projects");
+});
+
+app.get('/refferences', function(req, res) {
+    res.render("refferences");
+});
+
+app.get('/hobbies', function(req, res) {
+    res.render("hobbies");
+});
+
+app.get('/competences', function(req, res) {
+    res.render("competences");
 });
 
 
