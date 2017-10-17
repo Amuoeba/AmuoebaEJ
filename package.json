@@ -1,0 +1,11 @@
+{
+  "name": "AmuoebaEJ",
+  "version": "1.0.0",
+  "description": "Source for my full stack website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Erik Janežič",
+  "license": "ISC"
+}
