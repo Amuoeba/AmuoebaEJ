@@ -4,20 +4,71 @@ fixed.ui.inverted.menu{
     margin-bottom: 10px;
 }
 p{  
-    color: red;
+    color: rgb(208, 228, 204);
 }
 body{
 
-    background-image: url('/images/parallax.jpg')
+    background-image: url('/images/net.png');
+    background-attachment: fixed;
 }
 
-.ui.huge.header{
-    padding: 100px;
-    background: #926161;
+.page.title{    
+    padding: 10px;   
+    background: rgba(4, 3, 3, 0.5);
     margin: 50px;
-    border-radius: 15% 15% 20% 20% ;
     height: 100px;
+    
+    font-family: 'Allerta Stencil';   
     text-align: center;
-    font-size:50px;
+    font-size: 50px;
+    color: white;
+    
+    
+
+    border-color: rgba(134, 170, 165, 0.679);
+    border-width: 8px;
+    border-style: solid;
+    border-radius: 20px ;
+    line-height: 100%;
 }
 
+
+.parallax {
+    font-size: 300%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 1px;
+    perspective: 1px;
+  }
+
+.parallax__layer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.parallax__layer--base {
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+}
+
+.parallax__layer--back {
+	-webkit-transform: translateZ(-1px);
+	transform: translateZ(-1px);
+}
+
+.title1 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+/* add some padding to force scrollbars */
+.parallax__layer {
+	padding: 100vh 50vh;
+}
