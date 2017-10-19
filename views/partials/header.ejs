@@ -5,17 +5,22 @@
 	<title>EJ</title>
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.css">
 	<link rel="stylesheet" type="text/css" href="/stylesheets/custom.css">
-	<link href='https://fonts.googleapis.com/css?family=Allerta Stencil' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Allerta Stencil' rel='stylesheet'>	
 </head>
 <body>
 <div class="fixed ui inverted menu">
 	<div class="container">
 		<div class="header item"><i class="code icon"></i>EJ</div>
-		<a href="/" class="item">Home</a>
-		<a href="/bio" class="item">Bio</a>
-		<a href="/projects" class="item">Projects</a>
-		<a href="/refferences" class="item">Refferences</a>
-		<a href="/competences" class="item">Competences</a>
-		<a href="/hobbies" class="item">Hobbies</a>
+		<a href="/" class="item" id="/">Home</a>
+		<a href="/bio" class="item" id="/bio">Bio</a>
+		<a href="/projects" class="item" id="/projects">Projects</a>
+		<a href="/refferences" class="item" id="/refferences">Refferences</a>
+		<a href="/competences" class="item" id="/competences">Competences</a>
+		<a href="/hobbies" class="item" id="/hobbies">Hobbies</a>
 	</div>
 </div>
+
+<script>
+	var activePage = <%- JSON.stringify(page) %>
+</script>
+<script type="text/javascript" src="/scripts/setActive.js"></script>

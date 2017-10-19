@@ -4,7 +4,7 @@ fixed.ui.inverted.menu{
     margin-bottom: 10px;
 }
 p{  
-    color: rgb(208, 228, 204);
+    color: rgb(252, 252, 252);
 }
 body{
 
@@ -33,6 +33,26 @@ body{
 }
 
 
+.item{
+    background-color: #000000;
+}
+
+.ui.raised.segment{
+    background-color: rgba(36, 96, 174, 0.679);
+    margin: 50px;
+}
+
+div#base{
+    margin: auto;
+    color: white;
+    width: 60vh;
+    text-align: left;
+}
+
+
+
+
+/*PARALAX CODE*/
 .parallax {
     font-size: 300%;
     height: 100vh;
@@ -57,7 +77,8 @@ body{
 
 .parallax__layer--back {
 	-webkit-transform: translateZ(-1px);
-	transform: translateZ(-1px);
+    transform: translateZ(-1px);
+    background-color: white;
 }
 
 .title1 {
@@ -71,4 +92,8 @@ body{
 /* add some padding to force scrollbars */
 .parallax__layer {
 	padding: 100vh 50vh;
+}
+
+#erik.column{
+    background-color: red;
 }

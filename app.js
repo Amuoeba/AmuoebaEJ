@@ -9,27 +9,27 @@ app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
 
 app.get('/', function(req, res) {
-    res.render("landing");
+    res.render("landing",{page: req.url});
 });
 
 app.get('/bio', function(req, res) {
-    res.render("bio");
+    res.render("bio",{page: req.url});
 });
 
 app.get('/projects', function(req, res) {
-    res.render("projects");
+    res.render("projects",{page: req.url});
 });
 
 app.get('/refferences', function(req, res) {
-    res.render("refferences");
+    res.render("refferences",{page: req.url});
 });
 
 app.get('/hobbies', function(req, res) {
-    res.render("hobbies");
+    res.render("hobbies",{page: req.url});
 });
 
 app.get('/competences', function(req, res) {
-    res.render("competences");
+    res.render("competences",{page: req.url});
 });
 
 
