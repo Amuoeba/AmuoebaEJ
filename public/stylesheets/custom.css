@@ -5,20 +5,14 @@ fixed.ui.inverted.menu{
 }
 p{  
     color: rgb(252, 252, 252);
-}
-
-
-#background{
-    background-image: url('/images/net.png');
-    background-attachment: fixed;
-    overflow-y:auto;
+    font-size: 20px;
 }
 
 .page.title{    
     padding: 10px;   
     background: rgba(4, 3, 3, 0.5);
     margin: 50px;
-    height: 10vh;
+    height: 90px;
     
     font-family: 'Allerta Stencil';   
     text-align: center;
@@ -34,28 +28,22 @@ p{
     line-height: 100%;
 }
 
-
-.item{
-    background-color: #000000;
+img.portrait::after{
+    position: relative;
+    right:50px; 
 }
 
-.ui.raised.segment{
-    background-color: rgba(36, 96, 174, 0.679);
-    margin: 50px;
+img.portrait{
+   
+    width:240px;    
+    height: auto;   
+    max-width: 240;
+    min-width: 240;
+    shape-outside: url('/images/erik.png');
+    shape-image-threshold: 0.5;
+    float: left;   
 }
 
-div#base{
-    margin: auto;
-    color: white;
-    width: 60vh;
-    text-align: left;
-}
-
-
-
-#erik.column{
-    background-color: red;
-}
 
 /*competences paralax*/
 body {
@@ -64,7 +52,7 @@ body {
   
   h1,
   h2 {
-    padding-top: 10vh;
+    
     color: rgb(255, 255, 255);
     text-align: center;
   }
@@ -80,12 +68,16 @@ body {
   }
   
   .mb_parallax_overlay {
-    height: 60vh;
-    width: 60vw;
+    height: auto;
+    width: 70vw;
     margin: auto;
-    background-color: black;
-    opacity: .8;
+    padding: 5vh;
+    background-color: rgba(0, 0, 0, 0.741);
     border-radius: 20px;
+    max-height: 70vh;
+    overflow-y: auto;
+    
+    
   }
   
   #mb_parallax_one {
@@ -100,3 +92,13 @@ body {
   #mb_parallax_three {
     background-image: url('/images/dna.jpg');
   }
+
+  /*Text around picture*/
+
+
+.panel.blue{
+    background-color: blue;
+}
+.panel.turqoise{
+    background-color: turquoise;
+}
