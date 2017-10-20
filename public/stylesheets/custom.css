@@ -6,17 +6,19 @@ fixed.ui.inverted.menu{
 p{  
     color: rgb(252, 252, 252);
 }
-body{
 
+
+#background{
     background-image: url('/images/net.png');
     background-attachment: fixed;
+    overflow-y:auto;
 }
 
 .page.title{    
     padding: 10px;   
     background: rgba(4, 3, 3, 0.5);
     margin: 50px;
-    height: 100px;
+    height: 10vh;
     
     font-family: 'Allerta Stencil';   
     text-align: center;
@@ -51,49 +53,50 @@ div#base{
 
 
 
-
-/*PARALAX CODE*/
-.parallax {
-    font-size: 300%;
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    -webkit-perspective: 1px;
-    perspective: 1px;
-  }
-
-.parallax__layer {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-}
-
-.parallax__layer--base {
-	-webkit-transform: translateZ(0);
-	transform: translateZ(0);
-}
-
-.parallax__layer--back {
-	-webkit-transform: translateZ(-1px);
-    transform: translateZ(-1px);
-    background-color: white;
-}
-
-.title1 {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-}
-
-/* add some padding to force scrollbars */
-.parallax__layer {
-	padding: 100vh 50vh;
-}
-
 #erik.column{
     background-color: red;
 }
+
+/*competences paralax*/
+body {
+    margin: 0;
+  }
+  
+  h1,
+  h2 {
+    padding-top: 10vh;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  
+  .mb_parallax_container {
+    height: 100vh;
+    width: 100vw;
+    /* border-bottom: 10px solid black; */
+    padding-top: 20vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .mb_parallax_overlay {
+    height: 60vh;
+    width: 60vw;
+    margin: auto;
+    background-color: black;
+    opacity: .8;
+    border-radius: 20px;
+  }
+  
+  #mb_parallax_one {
+    padding-top:5vh;
+    background-image: url('/images/mountain1.jpg');
+  }
+  
+  #mb_parallax_two {
+    background-image: url('/images/parallax.jpg');
+  }
+  
+  #mb_parallax_three {
+    background-image: url('/images/dna.jpg');
+  }
