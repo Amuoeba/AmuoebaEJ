@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+#pinContainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.panel {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+}
+.panel .additionalContent {
+    background-color: red;
+    margin-left:10vh;
+    margin-right: 10vh;
+    margin-top:20vh;
+    padding-bottom: 20vh;
+}
+.One {
+  background-color: #04478f;
+}
+.Two {  
+  background-image: url('/images/beta-barrel.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.Three {
+  background-color: #22d659;
+  background-image: url('/images/brochaArea.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Four {
+  background-color: #953543;
+}
+.Five{
+    background-color: rgb(129, 71, 143);
+}
+/* .panel > b {
+  font-size: 30px;
+  color: white;
+  position: relative;
+  display: block;
+  height: 0;
+  overflow: visible;
+  top: 50%;
+} */

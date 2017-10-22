@@ -6,15 +6,15 @@
 
 // define movement of panels
   var wipeAnimation = new TimelineMax()
-      .to("section.panel.one .additionalContent", 1, {y: "-100%", ease: Linear.easeNone}) // scroll Content      
-      .fromTo("section.panel.two", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone})  // in from left
-      .to("section.panel.two .additionalContent", 1, {y: "-100%", ease: Linear.easeNone}) // scroll Content
-      .fromTo("section.panel.three",    1, {x:  "100%"}, {x: "0%", ease: Linear.easeNone})  // in from right
-      .to("section.panel.three .additionalContent", 1, {y: "-100%", ease: Linear.easeNone}) // scroll Content
-      .fromTo("section.panel.four", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone}) // in from top
-      .to("section.panel.four .additionalContent", 1, {y: "-100%", ease: Linear.easeNone}) // scroll Content
-      .fromTo("section.panel.five",    1, {x:  "100%"}, {x: "0%", ease: Linear.easeNone})  // in from right
-      .to("section.panel.five .additionalContent", 1, {y: "-100%", ease: Linear.easeNone});
+      .to("section.panel.One .additionalContent", 1, {y: "-100%", ease: Linear.easeNone}) // scroll Content      
+      .fromTo("section.panel.Two", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone})  // in from left
+      .to("section.panel.Two .additionalContent", 1, {y: "-100%", ease: Linear.easeNone}) // scroll Content
+      .fromTo("section.panel.Three",    1, {x:  "100%"}, {x: "0%", ease: Linear.easeNone})  // in from right
+      .to("section.panel.Three .additionalContent", 1, {y: "-100%", ease: Linear.easeNone}) // scroll Content
+      .fromTo("section.panel.Four", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone}) // in from top
+      .to("section.panel.Four .additionalContent", 1, {y: "-100%", ease: Linear.easeNone}) // scroll Content
+      .fromTo("section.panel.Five",    1, {x:  "100%"}, {x: "0%", ease: Linear.easeNone})  // in from right
+      .to("section.panel.Five .additionalContent", 1, {y: "-100%", ease: Linear.easeNone});
       
 
   // create scene to pin and link animation
