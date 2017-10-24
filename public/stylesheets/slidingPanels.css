@@ -14,7 +14,7 @@ html, body {
 
 }
 .panel .additionalContent {
-    background-color: red;
+    /* background-color: red; */
     margin-left:10vh;
     margin-right: 10vh;
     margin-top:20vh;
