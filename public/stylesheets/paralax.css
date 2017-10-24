@@ -45,3 +45,7 @@ body {
   #mb_parallax_three {
     background-image: url('/images/parallax.jpg');
   }
+
+  #mb_parallax_four {
+    background-image: url('/images/desert.jpg');
+  }

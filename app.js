@@ -34,6 +34,7 @@ app.get('/competences', function(req, res) {
 
 
 
+
 //Runs the app at localhost
 app.listen(3000,function(){
 	console.log("Server Started at port 3000!");

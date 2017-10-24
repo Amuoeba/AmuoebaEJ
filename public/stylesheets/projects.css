@@ -30,21 +30,55 @@ div.projectTitle{
 
 
 #git{
-    text-align: center;
+    text-align: left;
 }
 
 #gitbanner{
     color: rgb(194, 194, 64);
     font-size: 35px;
+    text-align: left;
+    
+    
 }
 .gitCenter{
     display: inline-block;
+    width:25%;
+    margin: 1% 1% 1% 1%;
+
 }
 #gitLink{
-    margin-bottom: 20px;
+   text-align: center;
+    
 }
 .project.git{
     border-style: solid;
     border-color: rgb(194, 194, 64);
     border-radius: 10px;
+}
+div#gitbanner{
+    display: inline-block;
+    width: 70%;
+   
+    margin: 1% 1% 1% 1%;
+}
+
+#abstract{
+    color:white;
+    text-decoration: overline;
+    text-align: left;    
+}
+#RG{
+    height:300px;
+    width: auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+}
+.RG{
+    display: inline-block;
+}
+
+.RGWrap{
+    text-align: center;
 }
