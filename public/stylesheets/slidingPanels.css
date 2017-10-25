@@ -14,29 +14,35 @@ html, body {
 
 }
 .panel .additionalContent {
-    background-color: red;
+    /* background-color: red; */
     margin-left:10vh;
     margin-right: 10vh;
     margin-top:20vh;
     padding-bottom: 20vh;
 }
 .One {
-  background-color: #04478f;
-}
-.Two {  
-  background-image: url('/images/beta-barrel.jpg');
+  background-image: url('/images/coding.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.Three {
-  background-color: #22d659;
-  background-image: url('/images/brochaArea.png');
+.Two {  
+  background-image: url('/images/protein.jpg');
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
+}
+.Three {  
+  background-image: url('/images/language.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .Four {
-  background-color: #953543;
+  background-image: url('/images/cloud.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .Five{
     background-color: rgb(129, 71, 143);

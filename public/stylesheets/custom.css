@@ -14,13 +14,13 @@ p{
 }
 .tableWrapp{
   display: inline-block;
-  background-color: yellow;
+  /* background-color: yellow; */
   width:40%;
 }
 
 .centerWrapp{
   text-align: center;
-  background-color: blue;
+  /* background-color: blue; */
 }
 .page.title{    
     padding: 10px 30px 10px 30px;  
@@ -141,6 +141,21 @@ ui.inverted.segment{
   font-weight: normal;
 }
 
+.inbetween{
+  padding: 10px;   
+  background: rgba(4, 3, 3, 0.5);
+  height: auto;
+  display: inline-block;  
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  border-color: rgba(134, 170, 165, 0.679);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 20px ;
+  line-height: 100%;
+
+}
 
 /*competences paralax*/
 
