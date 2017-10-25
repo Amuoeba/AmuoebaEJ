@@ -14,9 +14,13 @@ p{
 }
 .tableWrapp{
   display: inline-block;
+  background-color: yellow;
+  width:40%;
 }
+
 .centerWrapp{
   text-align: center;
+  background-color: blue;
 }
 .page.title{    
     padding: 10px 30px 10px 30px;  
@@ -110,6 +114,32 @@ img.portrait{
     float: left;
 }
 
+ui.inverted.segment{
+  width:70vh;
+  text-align: left;
+}
+
+#bioList{
+  text-align: left;
+}
+
+.bigItem{
+  font-size: 20px;
+  /* background-color: blue; */
+  font-weight: bold;
+}
+.smallItem{
+  font-size: 16px;
+/*   background-color: red; */
+  margin-left:7%;
+  font-weight: bold;
+}
+.smallItem.I{
+  font-size: 16px;
+/*   background-color: red; */
+  margin-left:14%;
+  font-weight: normal;
+}
 
 
 /*competences paralax*/
