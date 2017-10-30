@@ -75,10 +75,29 @@ div#gitbanner{
     border-color: white;
     border-radius: 10px;
 }
+
+#mean{
+    height:300px;
+    width: auto;
+}
 .RG{
     display: inline-block;
 }
 
 .RGWrap{
     text-align: center;
+}
+
+.ulcenterWrapp{
+    text-align: center;
+}
+
+.ulinlineWrapp{
+    display: inline-block;
+}
+
+ul.todos{
+    color: white;
+    text-align: left;
+    font-size: 16px;
 }

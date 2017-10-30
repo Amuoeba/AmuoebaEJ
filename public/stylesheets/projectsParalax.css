@@ -1,0 +1,23 @@
+#mb_parallax_one_projects {
+    padding-top:5vh;
+    background-image: url('/images/darkwood.jpg');
+  }
+  
+  #mb_parallax_two_projects {
+    background-image: url('/images/neuron1.jpg');
+  }
+  
+  #mb_parallax_three_projects {
+    background-image: url('/images/cryptex.jpg');
+  }
+
+  #mb_parallax_four_projects {
+    background-image: url('/images/snowmountain.jpg');
+  }
+
+  #mb_parallax_five_projects {
+    background-image: url('/images/lek.jpg');
+  }
+  #mb_parallax_six_projects {
+    background-image: url('/images/ai.jpg');
+  }

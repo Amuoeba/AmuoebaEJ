@@ -1,0 +1,23 @@
+#mb_parallax_one_bio {
+    padding-top:5vh;
+    background-image: url('/images/praprot.jpg');
+  }
+  
+  #mb_parallax_two_bio {
+    background-image: url('/images/biochemistry.jpg');
+  }
+  
+  #mb_parallax_three_bio {
+    background-image: url('/images/lizard.jpg');
+  }
+
+  #mb_parallax_four_bio {
+    background-image: url('/images/neurons.png');
+  }
+
+  #mb_parallax_five_bio {
+    background-image: url('/images/lek.jpg');
+  }
+  #mb_parallax_six_bio {
+    background-image: url('/images/ai.jpg');
+  }

@@ -1,0 +1,23 @@
+#mb_parallax_one_hobbies {
+    padding-top:5vh;
+    background-image: url('/images/ball.jpg');
+  }
+  
+  #mb_parallax_two_hobbies {
+    background-image: url('/images/underwatter.jpeg');
+  }
+  
+  #mb_parallax_three_hobbies {
+    background-image: url('/images/bohinjmountains.jpg');
+  }
+
+  #mb_parallax_four_hobbies {
+    background-image: url('/images/lichking.jpg');
+  }
+
+  #mb_parallax_five_hobbies {
+    background-image: url('/images/lek.jpg');
+  }
+  #mb_parallax_six_hobbies {
+    background-image: url('/images/ai.jpg');
+  }
