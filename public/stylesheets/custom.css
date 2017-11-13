@@ -7,7 +7,10 @@ p{
     color: rgb(252, 252, 252);
     font-size: 20px;
 }
-
+b.welcome{
+  text-align: center;
+  margin-bottom: 10px;
+}
 .titleWrapp{
   text-align: center;
   margin: 20px 20px 20px 20px;

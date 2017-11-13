@@ -33,23 +33,52 @@
 <div class="fixed ui inverted menu">
 	<div class="container">
 		<div class="header item"><i class="code icon"></i>EJ</div>
-		<a href="/" class="item" id="/">Home</a>
-		<a href="/bio" class="item" id="/bio">Bio</a>
-		<a href="/competences" class="item" id="/competences">Competences</a>		
-		
-<!-- 		<div class="ui dropdown link item simple">
-			<a href="/competences" class="text" id="/competences">Competences</a>
-    		<i class="dropdown icon"></i>
-			<div class="ui menu" id="dropdownEdited">
-				<div class="item">
-					<p class="dropEle">erik</p>
-				</div>						
+		<a href="/" class="item" id="/">HOME</a>				
+		<div class="dropdown">
+			<a class="dropbtn item" href="/bio" id="/bio">BIO</a>
+			<div class="dropdown-content" style="left:0;">
+				<a href="/bio/#earlyLife">Early Life</a>
+				<a href="/bio/#university">University</a>
+				<a href="/bio/#theNewPath">The New Path</a>
+				<a href="/bio/#bachelorsDegree">Bacherlors Degree</a>
+				<a href="/bio/#workingAtLek">Working at Lek</a>
+				<a href="/bio/#now">Now</a>
 			</div>
-		</div> -->
-		
-		<a href="/projects" class="item" id="/projects">Projects</a>
-		<a href="/refferences" class="item" id="/refferences">Refferences</a>
-		<a href="/hobbies" class="item" id="/hobbies">Hobbies</a>
+		</div>
+		<div class="dropdown">
+			<a class="dropbtn item" href="/competences" id="/competences">COMPETENCES</a>
+			<div class="dropdown-content" style="left:0;">
+				<a id="CS" class="competencesClickable">Computer Science</a>
+				<a id="BY" class="competencesClickable">Biochemistry</a>
+				<a id="LS" class="competencesClickable">Language Skills</a>
+				<a id="SS" class="competencesClickable">Soft Skills</a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<a class="dropbtn item" href="/projects" id="/projects">PROJECTS</a>
+			<div class="dropdown-content" style="left:0;">
+				<a href="/projects/#gradThesis">Graduation Thesis</a>
+				<a href="/projects/#autoDecode">Automatic Decyphering Of Substitution Cyphers</a>
+				<a href="/projects/#mysite">My Website</a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<a class="dropbtn item" href="/refferences" id="/refferences">REFFERENCES</a>
+			<div class="dropdown-content" style="left:0;">
+				<a href="/refferences/#diploma">Bachelors Degree</a>
+				<a href="/refferences/#UML">Machine Learning A-Z</a>
+				<a href="/refferences/#webDev">Web Development Bootcamp</a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<a class="dropbtn item" href="/hobbies" id="/hobbies">HOBBIES</a>
+			<div class="dropdown-content" style="left:0;">
+				<a href="/hobbies/#basket">Basket Ball</a>
+				<a href="/hobbies/#diving">Diving</a>
+				<a href="/hobbies/#hiking">Hiking</a>
+				<a href="/hobbies/#games">Video Games</a>
+			</div>
+		</div>	
 	</div>
 </div>
 
@@ -57,6 +86,6 @@
 	var activePage = <%- JSON.stringify(page) %>
 </script>
 <script type="text/javascript" src="/scripts/setActive.js"></script>
-
+<script type="text/javascript" src="/scripts/scroolToLocation.js"></script>
 
 
