@@ -37,6 +37,15 @@
                     <a href="#myWebsite" class="ui inverted button" id="more">More</a>
                   </div>
             </div>
+            <div class="column">
+                <div class="project">
+                    <div class="projectTitle">
+                      <h1>A3C implementation for solving Atari gameenvironments</h1>
+                    </div>
+                    <p>Implementation of A3C for solving Atari environments, done for a course project Machine learning</p>
+                    <a href="#a3c" class="ui inverted button" id="more">More</a>
+                  </div>
+            </div>
         </div>
         <div class="one column row">
             <div class="column">
@@ -125,6 +134,41 @@
       corpora for Slovenian language. At the end some future plans and ideas for improvement
       are presented.
     </p>
+    <p>
+    	<u><b>Update: </b></u><br>
+    	We conducted our own analysis of Slovenian language corpus <i>GigaFida</i>. We counted the frequencies
+      of pairs and triplets of letters which were then used in the execution of the previously implemented 
+      algorithm. Since Slovenian language is morphologically much richer than English we let the algorithm
+      run over the night a couple of times. We noticed that there is a great degree of language like structure,
+      and majoirity  of words were almost completed. Only few letters were wrong in each run and we were able to
+      manualy decypher the rest of the massage. Full encrypted and decrypted massage is presented below: <br>
+      <br>
+      <div style="text-align: center;" >
+        <div style="display: inline-block;text-align:left">
+          <p>
+             <i>Draga mi!<br>
+              1!2č4 7?8=2.794č4+. 7928?= 14 5o2 1? č4 +4 =5+2 =262m4<br>
+              Tvoje pismo prejel. Prosim Te ako Ti je le malo mogoče,<br>
+              <br>
+              72K+č? =? !85č 759 o95čn59č4!  <5 =? Y2 !85č =5+4 72=565-2<br>
+              pošlji mi vsaj par krajcarjev, da mi bo vsaj male pomagano.<br>
+              <br>
+              5o2 72K+č4K  =295K 15o2č oč49 84= 948 m?812 803 ?- !930 1465<br>
+              Ako pošlješ, moraš takoj kjer sem res čisto suh in vrhu tega<br>
+              <br>
+              694=2 o=5+0 ! Y460-č4  1295č !85č 759 o95čn49č4!  5o2 1? č4<br>
+              gremo kmalu v Begunje. Toraj vsaj par krajcerjev, ako Ti je<br>
+              <br>
+              =262m4  5 15o2č   Na svidenje Kozak<br>
+              mogoče, a takoj.<br></i>
+              
+          </p>
+        </div>
+      </div>
+
+      
+      
+    </p>
     <div class="RGWrap"
     <div class="RG">
       <img id ="RG" src="/images/elizika.jpg" type="image">
@@ -165,6 +209,30 @@
     
   </div>
 </div>
+
+<div class="mb_parallax_container" id="mb_parallax_seven_projects">
+    <div class="mb_parallax_overlay">
+      <a name="a3c"></a>
+      <h1>
+          A3C implementation for solving Atari gameenvironments
+      </h1>
+      <p>
+          The area of reinforcement learning has been an interesting topic of machine learning for a long time. It mainlyconcerns the topics of training ”intelligent” actors which have to navigate an unknown environment while maximizing acertain predefined score. In this project we explore and implement an recently proposed approach of reinforcementlearning known as asynchronous advantage actor critic or A3C for short. The model was proposed by a Google Ai teamin 2016, and it is best known for its success in solving Atari 2600 based environments, and that it has no expensive hardware demands (such as GPUs) to successfully train the model.
+      </p>
+      <div class="RGWrap"
+      <div class="RG">        
+        <video id="gautsch" controls autoplay loop>
+            <source src="/videos/openaigym.video.0.10292.video002860.mp4" type="video/mp4">      
+            Your browser does not support HTML5 video.
+        </video> 
+      </div>
+      <div class="RGWrap"
+      <div class="RG">
+        <a target="_blank" href="/documents/a3c-implementation-solving.pdf" class="ui inverted button" id="DownloadFullDoc">Download Full Document</a>
+        <a target="_blank" href="https://github.com/Amuoeba/MLProject" class="ui inverted button" id="DownloadFullDoc">GitHub</a>
+      </div>     
+    </div>
+  </div>
 
 
 <%include ./partials/footer%>
